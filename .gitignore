@@ -1,5 +1,17 @@
-﻿.venv/
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# SQLite databases
 *.db
+
+# Environment variables and secrets
 .env
+
+# Build files
+build/
+dist/
